@@ -46,8 +46,8 @@ JobData = pd.DataFrame(jobslist)
 joblocale = JobData['location']
 
 
+# Cleaning Location data
 Keys = ['Chennai, Tamil Nadu', 'Bangalore, Karnataka' ,'Gurgaon, Haryana', 'Hyderabad, Telangana', 'Pune, Maharashtra', 'Mumbai, Maharashta', 'Remote']
-
 
 for i in range(0,len(joblocale)):
     for x in range(0,len(Keys)):
@@ -59,7 +59,7 @@ JobData['location'] = joblocale
 
 JobData.to_csv('Job_Data.csv', index = False)
 
-len(JobData)
+
 
 
 
