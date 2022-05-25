@@ -1,2 +1,2 @@
 # Proj_JobsAnalysis
-Web scraping project to scrape "Analyst" jobs from Indeed.com 
+Tableau visulization link : https://public.tableau.com/app/profile/kewal.roshan.ezra/viz/Jobsdata_16533634275860/AnalystJobsbyLocation
